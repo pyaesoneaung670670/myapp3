@@ -1,0 +1,16 @@
+a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-transform: capitalize; text-align:  center;
+    
+}
+p{
+    color: brown;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: oblique;
+}
+body{ background-color: black; 
+}

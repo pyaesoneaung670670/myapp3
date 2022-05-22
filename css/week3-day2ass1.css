@@ -1,0 +1,38 @@
+
+.col1{
+    width: 24%; height: 200px;
+    border: 2px solid black;
+    float: left; margin: 1px; 
+}
+body{
+    background-color: yellowgreen;
+}
+.row{
+    float: left;
+}
+.col{
+    float: left; 
+    margin: 50px;
+}
+.col3{
+     margin: 20px;
+     
+    
+}
+.row3{
+    clear: both;
+}
+.col5{
+    width: 40;
+    margin: 50px;
+}
+#p1{
+text-align: justify;
+}
+.col6{
+    float: left; width: 30%; height: 300px;
+    margin: 20px;
+}
+.row1{
+    margin: 10px;
+}

@@ -1,0 +1,7 @@
+div{ 
+    background-color: white;
+}
+div>div>h2{ 
+    color: aqua;
+}
+input{ color: blue;}

@@ -1,0 +1,202 @@
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    background-color: black;
+    float: left;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    position: relative;
+    background-color: gray;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    animation: box1animation 3s infinite;
+}
+@keyframes box1animation {
+    0%{
+        transform: translate(-50px,-50px);
+    }
+    100%{
+        transform: translate(200px,200px);
+    }
+    
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    position: absolute;
+    background-color: aqua;
+    top: 200px;
+    left: 210px;
+    z-index: 2;
+    animation: box2animation 6s infinite;
+}
+@keyframes box2animation {
+   0%{
+       transform: scale(20deg,50deg);
+   }
+   50%{
+       transform: skew(30deg);
+   }
+   100%{
+       transform: scale(60deg,100deg);
+   }
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    position: absolute;
+    background-color: blue;
+    top: 60px;
+    left: 60px;
+    z-index: 3; 
+    animation: box3animation 3s infinite;
+}
+
+@keyframes box3animation {
+   
+   0%{
+       transform: translate(100px,100px);
+
+   }
+   100%{
+       transform: translate(-50px,-50px);
+   }
+}
+
+.container2{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    background-color: burlywood;
+    position: relative;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    position: absolute;
+    background-color: red;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    animation: sanimation 3s infinite;
+
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    position: absolute;
+    background-color: green;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+    animation: sanimation 3s infinite;
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    position: absolute;
+    background-color: blue;
+    top: 60px;
+    left: 60px;
+    z-index: 3;
+    animation: sanimation 3s infinite;
+}
+@keyframes sanimation {
+    0%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: skew(20deg,20deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.container1{
+    width: 100%;
+    height: 500px;
+    background-color: royalblue;
+    position: relative;
+    text-align: center;
+
+
+}
+.circle1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    top: 20px;
+    left: 10px;
+ background-color: aqua;
+    position: absolute;
+    z-index: 3;
+}
+.circle2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    top: 20px;
+    left: 120px;
+  background-color: blue;
+    position: absolute;
+    z-index: 3;
+    
+    
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid pink;
+    border-radius: 50%;
+    top: 20px;
+    left:230px;
+   background-color: blueviolet;
+    position: absolute;
+z-index: 3;
+
+    
+}
+.circle4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    top: 80px;
+    left: 70px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    
+}
+.circle5{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 80px;
+    left: 180px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+}
+span{
+    height: 5px;
+}
+.title-line{
+    width: 20px;
+    height: 5px;
+    color: brown;
+}

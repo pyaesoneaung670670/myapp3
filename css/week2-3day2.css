@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,200;1,300&display=swap');
+@font-face {
+    font-family: 'my font';
+    src: url( ../Fira_Sans/FiraSans-Medium.ttf);
+}
+body{
+    background-color: pink;
+}
+ h2{ 
+    font-size: 30px;
+    font-style: italic;
+    background-color: gray;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+p{  text-align: start;
+font-size: 40px; color: yellow;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+}
+h3{ 
+    font-family: 'my font'; font-size: 20px;
+    color: gold;
+    background-color: black;
+    text-align: center;
+}
+a{ text-decoration: solid dotted red;}

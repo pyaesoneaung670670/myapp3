@@ -1,0 +1,12 @@
+/* Entarnal Style */
+h1{ 
+    color: antiquewhite;
+}
+ul{ 
+    color: red;
+}
+ol{ color: green;}
+
+
+p{ color: blue;}
+div>div>p{ color: gray;}
